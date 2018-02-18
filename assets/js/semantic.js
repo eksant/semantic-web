@@ -20,10 +20,10 @@ $(document).ready(function(){
 
 				$('#repo-content').append(
 					`<li ${selected} data-date="${moment(repo.created_at).format('DD/MM/YYYY')}">
-						<h2>${repo.name}</h2>
-						<em>${repo.owner.login} - ${moment(repo.created_at).format('MMMM DD, YYYY')}</em>
+						<h3>${repo.name}</h3>
+						<em><small>${moment(repo.created_at).format('MMMM DD, YYYY')} (${repo.owner.login})</small></em>
 						<p>${description}</p>
-						<p><a href="${repo.html_url}" target="_blank">Jump to github....</a></p>
+						<p><a href="${repo.html_url}" target="_blank"><small>Jump to github....</small></a></p>
 					</li>`)
 				i++
 			})
