@@ -1,6 +1,6 @@
 # Semantic Web
 Personal Web html - css - jquery
 
-![preview](/home/eksa/hacktiv8/phase-2/semantic-web/public/assets/img/preview.png  "Preview")
+![preview](https://raw.githubusercontent.com/eksant/semantic-web/master/public/assets/img/preview.png  "Preview")
 
 See demo on [http://seorangeksa.com](http://seorangeksa.com)
